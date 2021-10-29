@@ -1,4 +1,4 @@
-const partner = document.querySelector('#partenaire');
+const partner = document.querySelector('#partenaires');
 const checkBox = document.querySelector("#don-checkbox")
 const btn = document.querySelector("#don")
 

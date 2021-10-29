@@ -1,7 +1,7 @@
-<?php require_once 'header.php' ?>
+<?php require_once 'partials/head.php' ?>
 
     <h1 id="titre" class="text-center py-3">SLIME CORP</h1>
-    <div class=" row rounded p-5" id="projets">
+    <div class=" d-flex rounded p-5" id="projets">
         <div class="col-lg-3"></div>
         <div class="partner col-lg-3 pt-2  rounded text-center mx-2">
             <h2 class="text-center pt-5 pb-5">Nos partenaires</h2>
@@ -36,4 +36,4 @@
     <button id="ajout" class="btn btn-lg d-block mx-auto mt-3">Ajouter un partenaire</button>
     <div id="formulaire"></div>
 
-    <?php require_once 'footer.php' ?>
+    <?php require_once 'partials/footer.php' ?>

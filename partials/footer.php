@@ -1,7 +1,7 @@
 
 </main>
-<footer class="d-flex text-center p-2 text-white  justify-content-around bg-success">
-  <div class="col-sm-10 col-md-8 col-lg-8 col-xl-3 mx-1 ">
+<footer class="d-flex text-center p-2 text-white  justify-content-around">
+  <div class="col-sm-10 col-md-8 col-lg-8 col-xl-3">
     <h2 class="text-center pb-2 h4">Newsletter</h2>
     <form>
       <div class="form-group">
@@ -27,9 +27,9 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>    <!--script-->
-<script src="js/script.js"></script>
+<script src="js/main.js"></script>
 <script src="js/projets.js"></script>
-<script src="js/form.js"></script>
+<script src="js/formulaire.js"></script>
 </body>
 
 </html>
