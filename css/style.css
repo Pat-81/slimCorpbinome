@@ -1,1 +1,15 @@
+body {
+	margin: 0 !important;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: #235434;
+}
 
+main {
+	flex: 1;
+}
+
+h1{
+	color:#a7dcb2;
+}
