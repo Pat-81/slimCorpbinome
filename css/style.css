@@ -10,6 +10,90 @@ main {
 	flex: 1;
 }
 
-h1{
+h1, h2{
 	color:#a7dcb2;
+}
+
+nav, footer, nav ul li a, nav a{
+	background-color: #032107;
+	color:#a7dcb2;
+	margin: 0 !important;
+}
+/* PROJETS */
+#projets{
+	background-color: rgba(167,220,178);
+	color: #032107;
+}
+
+#projets  h2{
+	color: #235434;
+}
+
+#don{
+	background-color: #235434;
+	color: #a7dcb2;
+}
+
+#ajout{
+	border-color: #a7dcb2;
+	color: #a7dcb2;
+}
+
+#ajout:hover{
+	background-color: #a7dcb2;
+	color: #235434;
+}
+
+.don{
+	background-color: #235434;
+	color: #a7dcb2;
+}
+
+/* FOOTER */
+footer{
+	color:#a7dcb2;;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;	
+}
+
+footer form{
+	color:#a7dcb2;
+}
+
+footer ul{
+	list-style: none;
+	color: #a7dcb2;
+	margin: 0;
+	padding-left: 32px;
+}
+
+.social{
+	background-color: #032107;
+	color: #a7dcb2;
+}
+
+footer p {
+	color: #a7dcb2;
+}
+
+::placeholder{
+	color: #235434;
+} 
+
+
+/* FORMULAIRE AJOUT */
+#ajoutPartner{
+	background-color: #a7dcb2;
+}
+
+#ajoutPartner button {
+	background-color: #235434;
+	color: #a7dcb2;
+}
+
+.hide {
+	display: none;
 }
