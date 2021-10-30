@@ -1,12 +1,21 @@
 const formDiv = document.querySelector("#formulaire")
 const btnAdd = document.querySelector("#ajout")
+const btnAddPartner = document.querySelector('#btnAddPartner')
+
+btnAddPartner.addEventListener('click', () => {
+    btnAddPartner.classList.add('hide')
+    btnAdd.classList.add('d-block')
+})
+
 
 btnAdd.addEventListener('click', ()=>{
+    btnAddPartner.classList.remove('hide')
+
     let formulaire = document.createElement('form')
     let divForm = document.createElement('div')
     let labelForm = document.createElement('label')
     let inputForm = document.createElement('input')
-
+    
     let classDivForm = document.createAttribute('class')
     let typeInput = document.createAttribute('type')
     let classForm = document.createAttribute('class')
@@ -15,8 +24,7 @@ btnAdd.addEventListener('click', ()=>{
     let placeholderInput = document.createAttribute('placeholder')
     let forLabel = document.createAttribute('for')
 
-    classDivForm.value = 'form-group'
-    classForm.value = 'text-center'
+    classDivForm.value = 'form-group col-lg-12 text-center'
     typeInput.value = 'text'
     classInput.value = 'form-control'
     idInput.value = 'formInput'
