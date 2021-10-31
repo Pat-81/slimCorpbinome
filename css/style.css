@@ -96,3 +96,15 @@ footer p {
 .hide {
 	display: none;
 }
+
+.don-partner form{
+	border: 1px solid #235434;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 20px 130px;
+}
+
+#logo{
+	width: 75px;
+	height: 75px;
+}
